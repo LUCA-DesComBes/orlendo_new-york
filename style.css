@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #ebebeb;
+    overflow: hidden;
+}
+article {
+    border-radius: 13px;
+    background-color: #fff;
+    height: 68%;
+
+}
+#ny-div {
+    position: relative;
+    bottom: 75px;
+    left: 26px;
+    padding: 6px 0;
+    border-radius: 8px;
+    background-color: #3A3A3AB2;
+    width: 28%;
+}
+#n-y {
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+img[alt="avatar"] {
+    position: relative;
+    bottom: 120px;
+    left: 260px;
+}
+#orlendo {
+    position: relative;
+    bottom: 120px;
+    left: 51px;
+    font-weight: 700;
+    font-size: 36px;
+}
+#is-travel {
+    position: relative;
+    bottom: 120px;
+    left: 51px;
+    font-weight: 500;
+    color: #939393;
+    font-size: 24px;
+}
+#flight {
+    position: relative;
+    bottom: 90px;
+    left: 510px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #939393;
+}
+#num {
+    position: relative;
+    bottom: 90px;
+    left: 558px;
+    font-weight: 700;
+    font-size: 18px;
+}
+#travel {
+    position: relative;
+    bottom: 115px;
+    left: 51px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #939393;
+}
+#progress {
+    display: flex;
+    position: relative;
+    left: 51px;
+    bottom: 100px;
+    width: 83%;
+    height: 22%;
+    color: #fff;
+    border-radius: 99px;
+    background-color: #939393;
+    border: 5px solid #939393;
+}
+#progress-para {
+    position: relative;
+    top: 2px;
+    left: 242px;
+    z-index: 1;
+}
+#progress-o {
+    position: relative;
+    right: 72px;
+    width: 77%;
+    height: 20%;
+    padding: 12px 0;
+    border-radius: 99px;
+    background-color: #E0A863;
+}
